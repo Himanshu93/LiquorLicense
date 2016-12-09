@@ -7,6 +7,7 @@
         <h2 style="color: #800000; font-weight: bold"> Payment Confirmation: </h2>
         <h4><b>Thank You! </b></h4>
         <p>Your payment has been recieved. It may take upto 48 hours to reflect on your account.</p>
+        <p>A confirmation email has been sent to the account associated.</p>
 
         <input type="submit" value="Back to Home Page" formaction="HomePage.aspx" />
     </div>
