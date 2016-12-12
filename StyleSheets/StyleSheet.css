@@ -1913,19 +1913,22 @@ IMG.displayed {
     text-align: center;
 }
 
-.mediumTextCenter{
+.mediumTextCe
+
+{
     font-size: medium;
     text-align: center;
 }
+
 
 .tableborder{
     border-style: solid;
     border-color: inherit;
     border-width: thin;
-    width: 264px;
+    
 }
 
-.tableborder.FloatLeft1{
+tLeft1{
     float: left;
     width: 45%;
 }
