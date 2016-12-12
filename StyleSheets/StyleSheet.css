@@ -1898,3 +1898,43 @@ IMG.displayed {
     margin-left: auto;
     margin-right: auto }
 
+.h1{
+    color: maroon;
+    text-align: center;
+}
+
+.smallerTextCenter{
+    font-size: smaller;
+    text-align: center;
+}
+
+.smallTextCenter{
+    font-size: small;
+    text-align: center;
+}
+
+.mediumTextCenter{
+    font-size: medium;
+    text-align: center;
+}
+
+.tableborder{
+    border-style: solid;
+    border-color: inherit;
+    border-width: thin;
+    width: 264px;
+}
+
+.tableborder.FloatLeft1{
+    float: left;
+    width: 45%;
+}
+
+.tableborder.floatRight1{
+    float: right;
+    width: 45%;
+}
+
+.bottomBorder{
+    border-bottom: solid;
+}
