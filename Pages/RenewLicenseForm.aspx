@@ -187,8 +187,13 @@
                 ANY FALSE STATEMENT KNOWINGLY MADE ON THIS APPLICATION IS A MISDEMEANOR OF THE FIRST DEGREE AND IS GROUNDS FOR REJECTION AND/OR REVOCATION
             </div>
             <div id="Section1">
-                <div><p>SECTION 1</p></div>
+                <div><hr /><p>
+                    
+                    SECTION 1
+                    
+                     </p><hr /></div>
                 <div>
+                    <br />
                 <table class="tableborder">
                     <tr>
                         <td colspan="2">

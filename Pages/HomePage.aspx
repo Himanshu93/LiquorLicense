@@ -12,7 +12,7 @@
                     
                     <li><a href="RenewLicenseForm.aspx" onclick="recordOutboundLink(this, 'Outbound Links', 'BUSINESS NAV - Starting a Business');return false;">Renew Liqour License</a></li>
                     
-                    <li class="home"><a href="/" onclick="recordOutboundLink(this, 'Outbound Links', 'BUSINESS NAV - Business Home');return false;">home</a></li>
+                    <li class="home"><a href="/" onclick="recordOutboundLink(this, 'Outbound Links', 'BUSINESS NAV - Business Home');return false;">Log Out</a></li>
                 </ul>
             </nav>
         </div>
