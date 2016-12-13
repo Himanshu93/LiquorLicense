@@ -5,14 +5,6 @@
         .auto-style8 {
             width: 256px;
         }
-        .auto-style9 {
-            font-size: smaller;
-            text-align: center;
-            width: 318px;
-        }
-        .auto-style10 {
-            width: 318px;
-        }
         .auto-style13 {
             height: 19px;
         }
@@ -56,6 +48,30 @@
             border-color: inherit;
             border-width: thin;
             width: 388px;
+        }
+        .auto-style22 {
+            font-size: smaller;
+            text-align: center;
+            width: 627px;
+        }
+        .auto-style23 {
+            width: 627px;
+        }
+        .auto-style24 {
+            font-size: small;
+        }
+        .auto-style25 {
+            border-style: solid;
+            border-color: inherit;
+            border-width: thin;
+            text-align: center;
+        }
+        .auto-style26 {
+            border-style: solid;
+            border-color: inherit;
+            border-width: thin;
+            width: 388px;
+            text-align: center;
         }
     </style>
     </asp:Content>
@@ -181,7 +197,7 @@
         <div>
             <div>
                 <br />
-                Please Complete all the fields necessary
+                <span class="auto-style24">Please Complete all the fields necessary</span>
             </div>
             <div>
                 ANY FALSE STATEMENT KNOWINGLY MADE ON THIS APPLICATION IS A MISDEMEANOR OF THE FIRST DEGREE AND IS GROUNDS FOR REJECTION AND/OR REVOCATION
@@ -249,7 +265,7 @@
                                 <tr>
                                     <td>
                                         <%--Insert TextBox--%>
-                                        <asp:TextBox ID="TextBox10" runat="server" Width="300px"></asp:TextBox>
+                                        <asp:TextBox ID="TextBox10" runat="server" Width="300px" TextMode="Date"></asp:TextBox>
                                     </td>
                                 </tr>
                             </table>
@@ -259,10 +275,10 @@
                         <td class="auto-style8" colspan="2">
                             <table class="tableborder">
                                 <tr>
-                                    <td class="auto-style9">RESIDENCE ADDRESS</td>
+                                    <td class="auto-style22">RESIDENCE ADDRESS</td>
                                 </tr>
                                 <tr>
-                                    <td class="auto-style10">
+                                    <td class="auto-style23">
                                         <%--Insert TextBox--%>
                                         <asp:TextBox ID="TextBox4" runat="server" Width="620px"></asp:TextBox>
                                     </td>
@@ -290,7 +306,7 @@
                                 <tr>
                                     <td>
                                         <%--Insert TextBox--%>
-                                        <asp:TextBox ID="TextBox7" runat="server" Width="300px"></asp:TextBox>
+                                        <asp:TextBox ID="TextBox7" runat="server" Width="300px" MaxLength="5" TextMode="Number"></asp:TextBox>
                                     </td>
                                 </tr>
                             </table>
@@ -305,7 +321,7 @@
                                 <tr>
                                     <td class="auto-style15">
                                         <%--Insert TextBox--%>
-                                        <asp:TextBox ID="TextBox5" runat="server" Width="300px"></asp:TextBox>
+                                        <asp:TextBox ID="TextBox5" runat="server" Width="300px" TextMode="Phone"></asp:TextBox>
                                     </td>
                                 </tr>
                             </table>
@@ -318,7 +334,7 @@
                                 <tr>
                                     <td class="auto-style15">
                                         <%--Insert TextBox--%>
-                                        <asp:TextBox ID="TextBox8" runat="server" Width="300px"></asp:TextBox>
+                                        <asp:TextBox ID="TextBox8" runat="server" Width="300px" TextMode="Phone"></asp:TextBox>
                                     </td>
                                 </tr>
                             </table>
@@ -355,7 +371,7 @@
                     <table>
                         <tr>
                             <td>
-                                <p>
+                                <p aria-setsize="10">
                                     1. Has the permit holder, any partner, member, officer, director, manager, or any 5% or more shareholder or any
                                     LLC memmer owning 5% or maore of either the voting interests or membership <br /> interests been convicted of a crime
                                     not previously reported by the permit holder to this division?
@@ -472,11 +488,11 @@
                     <div>
                         <table class="tableborder">
                             <tr >
-                                <td class="auto-style21">STOCKHOLDERS HOLDING 5% OR MORE OF OUTSTANDING SHARES</td>
-                                <td class="tableborder">LAST FOUR DIGITS OF SOCIAL SECURITY #</td>
-                                <td class="tableborder">SHARES</td>
-                                <td class="tableborder">TITLE</td>
-                                <td class="tableborder">BIRTHDATE</td>
+                                <td class="auto-style26">STOCKHOLDERS HOLDING 5% OR MORE OF OUTSTANDING SHARES</td>
+                                <td class="auto-style25">LAST FOUR DIGITS OF SOCIAL SECURITY #</td>
+                                <td class="auto-style25">SHARES</td>
+                                <td class="auto-style25">TITLE</td>
+                                <td class="auto-style25">BIRTHDATE</td>
                             </tr>
                             <tr >
                                 <td class="auto-style21">SURENDER R REDDY</td>
@@ -489,24 +505,24 @@
                     </div>
                     <div>
                         <br />
-                        IF INFORMATION LISTED ABOVE IS NOT ACCURATE, PLEASE INDICATE CHANGES BELOW.
-                        <br />
+                        IF INFORMATION LISTED ABOVE IS NOT ACCURATE, PLEASE INDICATE CHANGES BELOW.<br />
+&nbsp;<br />
                     </div>
                     <div>
                         <table class="tableborder">
                             <tr >
-                                <td class="auto-style21">STOCKHOLDERS HOLDING 5% OR MORE OF OUTSTANDING SHARES</td>
-                                <td class="tableborder">LAST FOUR DIGITS OF SOCIAL SECURITY #</td>
-                                <td class="tableborder">SHARES</td>
-                                <td class="tableborder">TITLE</td>
-                                <td class="tableborder">BIRTHDATE</td>
+                                <td class="auto-style26">STOCKHOLDERS HOLDING 5% OR MORE OF OUTSTANDING SHARES</td>
+                                <td class="auto-style25">LAST FOUR DIGITS OF SOCIAL SECURITY #</td>
+                                <td class="auto-style25">SHARES</td>
+                                <td class="auto-style25">TITLE</td>
+                                <td class="auto-style25">BIRTHDATE</td>
                             </tr>
                             <tr >
                                 <td class="auto-style21">
                                     <asp:TextBox ID="TextBox11" runat="server" Width="385px"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox18" runat="server" Width="250px"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox18" runat="server" Width="250px" MaxLength="9" TextMode="Number"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
                                     <asp:TextBox ID="TextBox25" runat="server"></asp:TextBox>
@@ -515,7 +531,7 @@
                                     <asp:TextBox ID="TextBox32" runat="server"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox39" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox39" runat="server" TextMode="Date"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr >
@@ -523,7 +539,7 @@
                                     <asp:TextBox ID="TextBox12" runat="server" Width="385px"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox19" runat="server" Width="250px"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox19" runat="server" Width="250px" MaxLength="9" TextMode="Number"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
                                     <asp:TextBox ID="TextBox26" runat="server"></asp:TextBox>
@@ -532,7 +548,7 @@
                                     <asp:TextBox ID="TextBox33" runat="server"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox40" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox40" runat="server" TextMode="Date"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr >
@@ -540,7 +556,7 @@
                                     <asp:TextBox ID="TextBox13" runat="server" Width="385px"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox20" runat="server" Width="250px"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox20" runat="server" Width="250px" MaxLength="9" TextMode="Number"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
                                     <asp:TextBox ID="TextBox27" runat="server"></asp:TextBox>
@@ -549,7 +565,7 @@
                                     <asp:TextBox ID="TextBox34" runat="server"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox41" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox41" runat="server" TextMode="Date"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr >
@@ -557,7 +573,7 @@
                                     <asp:TextBox ID="TextBox14" runat="server" Width="385px"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox21" runat="server" Width="250px"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox21" runat="server" Width="250px" MaxLength="9" TextMode="Number"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
                                     <asp:TextBox ID="TextBox28" runat="server"></asp:TextBox>
@@ -566,7 +582,7 @@
                                     <asp:TextBox ID="TextBox35" runat="server"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox42" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox42" runat="server" TextMode="Date"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr >
@@ -574,7 +590,7 @@
                                     <asp:TextBox ID="TextBox15" runat="server" Width="385px"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox22" runat="server" Width="250px"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox22" runat="server" Width="250px" MaxLength="9" TextMode="Number"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
                                     <asp:TextBox ID="TextBox29" runat="server"></asp:TextBox>
@@ -583,7 +599,7 @@
                                     <asp:TextBox ID="TextBox36" runat="server"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox43" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox43" runat="server" TextMode="Date"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr >
@@ -591,7 +607,7 @@
                                     <asp:TextBox ID="TextBox16" runat="server" Width="385px"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox23" runat="server" Width="250px"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox23" runat="server" Width="250px" MaxLength="9" TextMode="Number"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
                                     <asp:TextBox ID="TextBox30" runat="server"></asp:TextBox>
@@ -600,7 +616,7 @@
                                     <asp:TextBox ID="TextBox37" runat="server"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox44" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox44" runat="server" TextMode="Date"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr >
@@ -608,7 +624,7 @@
                                     <asp:TextBox ID="TextBox17" runat="server" Width="385px"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox24" runat="server" Width="250px"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox24" runat="server" Width="250px" MaxLength="9" TextMode="Number"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
                                     <asp:TextBox ID="TextBox31" runat="server"></asp:TextBox>
@@ -617,7 +633,7 @@
                                     <asp:TextBox ID="TextBox38" runat="server"></asp:TextBox>
                                 </td>
                                 <td class="tableborder">
-                                    <asp:TextBox ID="TextBox45" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox45" runat="server" TextMode="Date"></asp:TextBox>
                                 </td>
                             </tr>
                         </table>
@@ -638,7 +654,7 @@
                                 </td>
                                 <td>SOCIAL SECURITY #</td>
                                 <td>
-                                    <asp:TextBox ID="TextBox50" runat="server" Width="250px"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox50" runat="server" Width="250px" MaxLength="9" TextMode="Number"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
@@ -648,7 +664,7 @@
                                 </td>
                                 <td>SOCIAL SECURITY #</td>
                                 <td>
-                                    <asp:TextBox ID="TextBox51" runat="server" Width="250px"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox51" runat="server" Width="250px" MaxLength="9" TextMode="Number"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
@@ -658,7 +674,7 @@
                                 </td>
                                 <td>SOCIAL SECURITY #</td>
                                 <td>
-                                    <asp:TextBox ID="TextBox52" runat="server" Width="250px"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox52" runat="server" Width="250px" MaxLength="9" TextMode="Number"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
@@ -668,7 +684,7 @@
                                 </td>
                                 <td>SOCIAL SECURITY #</td>
                                 <td>
-                                    <asp:TextBox ID="TextBox53" runat="server" Width="250px"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox53" runat="server" Width="250px" MaxLength="9" TextMode="Number"></asp:TextBox>
                                 </td>
                             </tr>
                         </table>
