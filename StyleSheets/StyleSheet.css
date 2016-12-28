@@ -732,7 +732,7 @@ input.InputBoxSmall {
 .ContentAlignRight {
     font-weight: bold;
     text-align: right;
-    margin: 5px 5px 5px 5px;`
+    margin: 5px 5px 5px 5px;
 }
 
 .ContentAlignLeft {
@@ -761,6 +761,8 @@ input.InputBoxSmall {
     font-size: 9pt;
     margin: 5px 5px 5px 5px;
     vertical-align: top;
+    width: 159px;
+    height: 41px;
 }
 
 .buttonCenter {
@@ -1686,7 +1688,7 @@ list-style-type: none;
 }
  
 .tab-links a:hover {
-    /*background:#a7cce5*/;
+    /*background:#a7cce5*/
     /*background:#700017;*/
     text-decoration:none;
 }
